@@ -45,3 +45,7 @@ async def ping(ctx):
 
 # --- RUN BOT ---
 bot.run(TOKEN)
+
+@app.route('/')
+def home():
+    return "OK", 200
