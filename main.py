@@ -5,7 +5,7 @@ import asyncio
 
 # --- CONFIG ---
 TOKEN = os.getenv("TOKEN")
-CHANNEL_ID = 123456789012345678  # <-- remplace par ton salon
+CHANNEL_ID = 1500538893026725971  # <-- remplace par ton salon
 
 # --- INTENTS ---
 intents = discord.Intents.default()
